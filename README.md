@@ -2,7 +2,7 @@
 
 A minimal, production-quality full-stack expense tracking application. Record, review, filter, and analyze personal expenses with a clean, modern interface.
 
-**Live Demo:** _[Link will be added after deployment]_
+**Live Demo:** https://expense-tracker-3xry.onrender.com
 
 ---
 
@@ -60,19 +60,19 @@ The frontend API client automatically retries failed requests (network errors, 5
 ## Features
 
 ### Core (All acceptance criteria met)
-- ✅ Create expense with amount, category, description, date
-- ✅ View list of expenses
-- ✅ Filter by category
-- ✅ Sort by date (newest first)
-- ✅ Total of currently visible expenses
+- Create expense with amount, category, description, date
+- View list of expenses
+- Filter by category
+- Sort by date (newest first)
+- Total of currently visible expenses
 
 ### Nice to Have (Implemented)
-- ✅ Input validation (positive amounts, required fields, date format)
-- ✅ Category-wise summary with visual bar chart
-- ✅ Automated integration tests (15 tests)
-- ✅ Loading states (skeleton UI)
-- ✅ Error states with retry button
-- ✅ Idempotent creation (handles double-clicks, retries, refreshes)
+- Input validation (positive amounts, required fields, date format)
+- Category-wise summary with visual bar chart
+- Automated integration tests (15 tests)
+- Loading states (skeleton UI)
+- Error states with retry button
+- Idempotent creation (handles double-clicks, retries, refreshes)
 
 ---
 
